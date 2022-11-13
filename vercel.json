@@ -15,7 +15,7 @@
       "dest": "index.js"
     },
     {
-      "src": "/user/(.*)",
+      "src": "/user/",
       "methods": [
         "POST"
       ],
