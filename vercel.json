@@ -15,7 +15,7 @@
       "dest": "index.js"
     },
     {
-      "src": "ui/register",
+      "src": "/user",
       "methods": [
         "POST"
       ],
