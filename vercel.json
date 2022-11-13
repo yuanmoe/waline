@@ -9,14 +9,14 @@
       "use": "@vercel/node@2.5.10"
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "index.js"
+      "src": "/(.*)",
+      "dest": "index.js"
     },
     {
-      "source": "/user",
-      "destination": "404"
+      "src": "/user(.*)",
+      "status": 404
     }
   ]
 }
