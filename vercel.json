@@ -13,6 +13,13 @@
     {
       "src": "/(.*)",
       "dest": "index.js"
+    },
+    {
+      "src": "ui/register",
+      "methods": [
+        "POST"
+      ],
+      "status": 404
     }
   ]
 }
